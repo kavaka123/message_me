@@ -28,6 +28,12 @@ gem 'semantic-ui-sass'
 # usinf jquery explicitly as rails >5 do not come shipping with it
 gem 'jquery-rails'
 
+#Using bcrypt for storing password digest
+gem 'bcrypt', '~> 3.1.7'
+
+#Using hirb for showing tabular data in rails console
+gem 'hirb'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
