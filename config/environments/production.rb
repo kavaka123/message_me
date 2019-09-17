@@ -91,4 +91,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  # uncomment below to unblock connecting to production heroku instance
+  # config.action_cable.disable_request_forgery_protection = true
+  # config.action_cable.allowed_request_origins = ['#url for ur production home page']
 end
